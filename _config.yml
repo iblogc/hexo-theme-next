@@ -14,7 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2014
 
 
 
@@ -28,7 +28,7 @@ rss:
 menu:
   home: /
   #categories: /categories
-  #about: /about
+  about: /about
   archives: /archives
   tags: /tags
   #commonweal: /404.html
@@ -57,9 +57,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 
 
 
@@ -69,8 +69,8 @@ scheme: Muse
 
 
 # Social links
-# social:
-  #GitHub:
+social:
+  GitHub: https://github.com/korvin101
   #Others:
 
 # Social Icons
@@ -83,7 +83,7 @@ social_icons:
 
 
 # Sidebar Avatar
-#avatar:
+avatar: /headimg.png
 
 
 # TOC in the Sidebar
@@ -110,10 +110,10 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle icon.
-  display: post
+  #display: post
   #display: always
   #display: hide
-  #display: remove
+  display: remove
 
 
 
@@ -138,7 +138,7 @@ custom_logo:
 highlight_theme: normal
 
 # Automatically scroll page to section which is under <!-- more --> mark.
-scroll_to_more: true
+scroll_to_more: false
 
 # Automatically Excerpt
 auto_excerpt:
@@ -159,13 +159,13 @@ mathjax:
 
 
 # Swiftype Search API Key
-#swiftype_key:
+swiftype_key: iG9HBtbvs2VW4sX9rFcC
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: dbe5ded201831a4b07cca26d70e498b6
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: iblogc
 
 # Disqus
 #disqus_shortname:
@@ -174,7 +174,8 @@ mathjax:
 #jiathis:
 
 # Share
-#duoshuo_share: true
+duoshuo_share: true
+duoshuo_hotartical: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
@@ -182,7 +183,7 @@ mathjax:
 
 
 # Google Analytics
-#google_analytics:
+google_analytics: qG7T6aqK8Yc9wkYFQZSYbiHnFjGresFJrmQ3GILJA80
 
 
 # Make duoshuo show UA
@@ -190,9 +191,9 @@ mathjax:
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
   ua_enable: true
-  admin_enable: false
-  user_id: 0
-  #admin_nickname: ROOT
+  admin_enable: true
+  user_id: 2739016
+  admin_nickname: ROOT
 
 
 # Facebook SDK Support.
