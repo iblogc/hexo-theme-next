@@ -31,6 +31,7 @@ menu:
   about: /about
   archives: /archives
   tags: /tags
+  guestbook: /guestbook
   #commonweal: /404.html
 
 
@@ -47,6 +48,7 @@ menu_icons:
   categories: th
   tags: tags
   archives: archive
+  guestbook: pencil
   commonweal: heartbeat
 
 
